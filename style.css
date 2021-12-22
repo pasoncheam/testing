@@ -1,33 +1,70 @@
 body{
   background-color: rgb(240, 255, 255);
+  border-top: 5px solid black;
+  border-right: 5px solid black;
+  border-left: 5px solid black;
+}
+
+#upmainheading{
+  font-family: cursive;
+  font-size: 20px;
+  text-align: center;
 }
 
 #mainheading{
   font-family: 'Trebuchet MS', sans-serif;
+  font-size: 100px;
+  text-align: center;
+  margin-top: 1px;
 }
 
 #unipic{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border: 4px dashed black;
-  width: 40%;
+  position: absolute;
+  width: 100%;
+  height: auto;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background-size: cover;
+  background-position: top center;
+  opacity: 0.25; 
 }
 
-#pasonpic{
-  float: left;
-  width: 18%;
-  margin-right: 8px;
+hr{
+  border-bottom: 5px solid black;
 }
 
-.introduction{
-  margin: auto;
-  width: 50%;
+#introduction{
+  font-size: 30px;
   font-family: 'Trebuchet MS', sans-serif;
-  
+
+}
+#left{
+  float: left;
+  width: 25%;
+  margin: 2px;
+  font-family: 'Trebuchet MS', sans-serif;
+  background-color: rgb(224, 255, 255);
 }
 
-#bottom{
+#center{
+  float: left;
+  width: 49%;
+  margin: 2px;
+  font-family: 'Trebuchet MS', sans-serif;
+  background-color: rgb(173, 216, 230);
+}
+
+#right{
+  float: left;
+  width: 25%;
+  margin: 2px;
+  font-family: 'Trebuchet MS', sans-serif;
+  background-color: rgb(176, 224, 230);
+}
+
+#footer{
   font-family: 'Trebuchet MS', sans-serif;
   background-color: rgb(173, 216, 230);
   color: black;
