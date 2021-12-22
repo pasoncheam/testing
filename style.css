@@ -5,3 +5,10 @@ body{
 #mainheading{
   font-family: cursive;
 }
+
+#unipic{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
