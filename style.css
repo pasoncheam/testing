@@ -10,5 +10,13 @@ body{
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border: 5px dotted black;
+  width: 40%;
+}
+
+.introduction{
+  margin: auto;
   width: 50%;
+  font-family: cursive;
+  
 }
